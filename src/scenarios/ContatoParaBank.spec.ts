@@ -28,7 +28,7 @@ test.describe('Testes funcionais no site ParaBank', () => {
     await paraBankPage.validarMensagemSSNFaltante();
   });
 
-  test('Validar senhas diferentes ', async () => {
+  test('Validar senhas diferentes', async () => {
     await paraBankPage.senhasDiferentes();
     await paraBankPage.enviarFormulario();
     await paraBankPage.validarMensagemSenhasDiferentes();
